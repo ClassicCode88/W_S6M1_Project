@@ -53,16 +53,16 @@ export default function Counter() {
   const [count, setCount] = useState(0);
   const increment = () => {
     /* STEP 4 */
+    setCount(count + 1)
   };
-  setcount(count + 1)
   const decrement = () => {
     /* STEP 5 */
+    setCount(count - 1)
   };
-  setCount(count - 1)
   const reset = () => {
     /* STEP 6 */
+    setCount(0)
   };
-  setCount(0)
   const isEven = count % 2 === 0
   const style = {
     fontSize: '1.5em',

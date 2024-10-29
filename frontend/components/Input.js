@@ -33,7 +33,7 @@ STEP 6:
   We need to add an extra prop to the <input /> element like so: value={inputValue}
 */
 
-import React {useState} from 'react'; /* STEP 0 */
+import React, {useState} from 'react'; /* STEP 0 */
 
 export default function Input() {
   /* STEP 1 */
@@ -47,8 +47,8 @@ export default function Input() {
   };
   const reset = () => {
     /* STEP 5 */
+    setInputValue('');
   };
-  setInputValue('');
 
   const style = {
     fontSize: '1.5em',

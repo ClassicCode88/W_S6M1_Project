@@ -10,7 +10,7 @@ We can only feature one awesome programmer at a time.
 Find comments below to help you along.
 */
 
-import React {useState} from 'react';
+import React, {useState} from 'react';
 
 // Use this variable ONLY to initialize a slice of state!
 // There is something in the JSX right now breaking this rule...
@@ -41,7 +41,7 @@ export default function Programmers() {
   const style = {
     fontSize: '1.5em',
     marginTop: '0.5em',
-    color: selectedProgerammer ? 'gold':'royalblue', // 🤔 color turns to gold, when celebrating
+    color: selectedProgrammer ? 'gold':'royalblue', // 🤔 color turns to gold, when celebrating
   };
 
   return (
